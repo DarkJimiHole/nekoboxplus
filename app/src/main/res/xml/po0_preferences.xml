@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/po0_title">
+        <SwitchPreference
+            app:key="po0WhitelistEnabled"
+            app:persistent="false"
+            app:summary="@string/po0_enable_summary"
+            app:title="@string/po0_enable" />
+        <Preference
+            app:key="po0WhitelistConfigurations"
+            app:persistent="false"
+            app:summary="@string/po0_configurations_empty"
+            app:title="@string/po0_configurations" />
+        <Preference
+            app:key="po0WhitelistRefresh"
+            app:title="@string/po0_refresh" />
+        <Preference
+            app:key="po0WhitelistStatus"
+            app:selectable="false"
+            app:title="@string/po0_status" />
+    </PreferenceCategory>
+</PreferenceScreen>

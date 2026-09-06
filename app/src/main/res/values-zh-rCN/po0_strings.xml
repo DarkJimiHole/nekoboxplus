@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="po0_title">po0 防火墙自动加白</string>
+    <string name="po0_enable">启用自动加白</string>
+    <string name="po0_enable_summary">代理服务运行期间：启动时、切换网络时及每 10 分钟自动加白。请求通过当前物理网络直连。</string>
+    <string name="po0_configurations">防火墙 API 配置</string>
+    <string name="po0_configurations_empty">尚未配置 API 地址</string>
+    <string name="po0_configurations_count">已配置 %1$d 个 API 地址（凭证已隐藏）</string>
+    <string name="po0_api_number">API %1$d</string>
+    <string name="po0_add_api">添加 API 地址</string>
+    <string name="po0_add_api_summary">配置完整 HTTPS 加白地址及其槽位策略</string>
+    <string name="po0_edit_api">编辑 API 地址</string>
+    <string name="po0_api_address">完整 API 地址</string>
+    <string name="po0_api_address_hint">填写完整的 HTTPS 加白地址，不要包含 slot 参数。地址可能含有凭证，仅保存在本机。</string>
+    <string name="po0_api_invalid">请输入有效的 HTTPS 地址，且不要包含 slot 查询参数。</string>
+    <string name="po0_api_duplicate">该 API 地址已经配置。</string>
+    <string name="po0_slot_strategy">槽位策略</string>
+    <string name="po0_unpinned_slot">不固定槽位</string>
+    <string name="po0_unpinned_slot_detail">不固定槽位（普通可淘汰条目）</string>
+    <string name="po0_fixed_slot">固定到槽位 %1$d</string>
+    <string name="po0_slot_0">固定到槽位 0</string>
+    <string name="po0_slot_1">固定到槽位 1</string>
+    <string name="po0_slot_2">固定到槽位 2</string>
+    <string name="po0_slot_3">固定到槽位 3</string>
+    <string name="po0_slot_4">固定到槽位 4</string>
+    <string name="po0_save">保存</string>
+    <string name="po0_delete">删除</string>
+    <string name="po0_delete_confirm">确定删除这个 API 配置吗？</string>
+    <string name="po0_refresh">立即加白</string>
+    <string name="po0_status">最近结果</string>
+    <string name="po0_off">自动加白已关闭。</string>
+    <string name="po0_paused">已暂停，启动代理服务后恢复自动加白。上次结果：</string>
+    <string name="po0_no_configurations">请先配置防火墙 API 地址。</string>
+    <string name="po0_invalid_configuration">防火墙 API 配置无效。</string>
+    <string name="po0_save_failed">无法在本机保存 API 配置。</string>
+    <string name="po0_waiting_network">等待可用的物理网络…</string>
+    <string name="po0_network_unavailable">无法监听物理网络。10 分钟后重试，也可点击“立即加白”。</string>
+    <string name="po0_running">正在通过直连请求加白…</string>
+    <string name="po0_applied">已加白</string>
+    <string name="po0_firewall_disabled">服务端防火墙未启用</string>
+    <string name="po0_not_applied">未确认白名单或指定槽位生效</string>
+    <string name="po0_access_denied">无访问权限或槽位冲突，请检查 Token 和控制台槽位</string>
+    <string name="po0_http_error">服务器请求失败</string>
+    <string name="po0_invalid_response">服务器响应格式异常</string>
+    <string name="po0_network_error">直连请求失败，请检查网络和 TLS 证书</string>
+</resources>

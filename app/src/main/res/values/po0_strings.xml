@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="po0_title">po0 automatic firewall whitelist</string>
+    <string name="po0_enable">Enable automatic whitelisting</string>
+    <string name="po0_enable_summary">While the proxy service runs: whitelist at startup, on network changes and every 10 minutes. Requests use your physical network directly.</string>
+    <string name="po0_configurations">Firewall API configurations</string>
+    <string name="po0_configurations_empty">No API address configured</string>
+    <string name="po0_configurations_count">%1$d API address(es) configured · credentials hidden</string>
+    <string name="po0_api_number">API %1$d</string>
+    <string name="po0_add_api">Add API address</string>
+    <string name="po0_add_api_summary">Configure the complete HTTPS add endpoint and its slot policy</string>
+    <string name="po0_edit_api">Edit API address</string>
+    <string name="po0_api_address">Complete API address</string>
+    <string name="po0_api_address_hint">Enter the complete HTTPS add endpoint without a slot parameter. The address may contain a credential and is stored only on this device.</string>
+    <string name="po0_api_invalid">Enter a valid HTTPS address without a slot query parameter.</string>
+    <string name="po0_api_duplicate">This address is already configured.</string>
+    <string name="po0_slot_strategy">Slot policy</string>
+    <string name="po0_unpinned_slot">Not pinned</string>
+    <string name="po0_unpinned_slot_detail">Not pinned (ordinary replaceable entry)</string>
+    <string name="po0_fixed_slot">Pinned to slot %1$d</string>
+    <string name="po0_slot_0">Pinned to slot 0</string>
+    <string name="po0_slot_1">Pinned to slot 1</string>
+    <string name="po0_slot_2">Pinned to slot 2</string>
+    <string name="po0_slot_3">Pinned to slot 3</string>
+    <string name="po0_slot_4">Pinned to slot 4</string>
+    <string name="po0_save">Save</string>
+    <string name="po0_delete">Delete</string>
+    <string name="po0_delete_confirm">Delete this API configuration?</string>
+    <string name="po0_refresh">Whitelist now</string>
+    <string name="po0_status">Latest result</string>
+    <string name="po0_off">Automatic whitelisting is off.</string>
+    <string name="po0_paused">Paused. Start the proxy service to resume automatic whitelisting. Previous result:</string>
+    <string name="po0_no_configurations">Configure a firewall API address first.</string>
+    <string name="po0_invalid_configuration">The firewall API configuration is invalid.</string>
+    <string name="po0_save_failed">Could not save the API configuration on this device.</string>
+    <string name="po0_waiting_network">Waiting for a physical network…</string>
+    <string name="po0_network_unavailable">Could not monitor the physical network. Retrying in 10 minutes or when you tap Whitelist now.</string>
+    <string name="po0_running">Whitelisting over a direct connection…</string>
+    <string name="po0_applied">Whitelisted</string>
+    <string name="po0_firewall_disabled">The server firewall is disabled</string>
+    <string name="po0_not_applied">Whitelist or requested slot not confirmed</string>
+    <string name="po0_access_denied">Access denied or slot conflict; check the token and console slots</string>
+    <string name="po0_http_error">Server request failed</string>
+    <string name="po0_invalid_response">Invalid server response</string>
+    <string name="po0_network_error">Direct request failed; check connectivity and TLS certificate</string>
+</resources>
