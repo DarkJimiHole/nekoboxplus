@@ -2,6 +2,11 @@ name: NekoBoxPlus APK
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**/*.md'
 
 permissions:
   contents: read
